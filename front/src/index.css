@@ -1,0 +1,9 @@
+@import './App.css';
+
+body {
+    margin: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
