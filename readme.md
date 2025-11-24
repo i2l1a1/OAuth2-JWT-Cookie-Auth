@@ -2,19 +2,23 @@
 
 ## Backend
 
-`python -m venv venv`
+1. Go to the `back` folder, place your real data in file `.env.example`, and rename it to `.env`.
 
-`source venv/bin/activate`
+2. Run `python -m venv venv` (or `python3 -m venv venv`).
 
-`pip install -r requirements.txt`
+3. Run `source venv/bin/activate`.
 
-`uvicorn main:app --reload --port 8001`
+4. Run `pip install -r requirements.txt`.
+
+5. Run `uvicorn main:app --reload --port 8001`.
 
 ## Frontend
 
-`npm i`
+1. Go to the `front` folder.
 
-`npm run dev`
+2. Run `npm i`.
+
+3. Run `npm run dev`.
 
 ## How to use
 
