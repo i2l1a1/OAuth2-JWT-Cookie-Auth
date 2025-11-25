@@ -23,3 +23,20 @@
 ## How to use
 
 Just open the URL printed by `npm run dev`.
+
+## Technologies
+
+### Backend
+
+- `fastapi` — main web framework for building APIs
+- `uvicorn` — ASGI server that runs FastAPI application
+- `SQLAlchemy` — ORM over SQLite
+- `python-jose`, `cryptography` — JWT creation and verification
+- `passlib`, `bcrypt` — password hashing
+- `python-dotenv` — load secrets from `.env`
+
+### Frontend
+
+- `React` — frontend framework
+- `vite` — frontend build tool
+- `tailwindcss 4+` — modern CSS framework
